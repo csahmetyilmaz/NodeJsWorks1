@@ -1,0 +1,15 @@
+{
+  "name": "u3-typescript",
+  "version": "1.0.0",
+  "description": "tset desc",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "Ahmet",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
