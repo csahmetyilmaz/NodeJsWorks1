@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>AY</title>
+
+    <link rel="stylesheet" href="/assets/semantic/semantic.css">
+</head>
+<body>
+<div class="ui fixed inverted menu">
+    <a href="/" class="header item"><h1>Acceuil</h1></a>
+</div>
+
+<div class="ui main container" style="margin-top: 7em;">
+<% if (locals.error) { %>
+    <div class="ui negative message"><%= error %></div>
+<% } %>
